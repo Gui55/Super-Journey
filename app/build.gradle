@@ -21,6 +21,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "BASE_URL", '"https://6410ee0295656eab41c58fb8.mockapi.com/"'
     }
 
     buildTypes {
